@@ -1,0 +1,31 @@
+
+.seccion {
+    overflow: hidden; /* Asegura que los elementos que salen del contenedor no se muestren */
+}
+
+/* Animación de entrada desde debajo */
+@keyframes slide-up {
+    0% {
+        transform: translateY(100%); /* Empieza fuera del área visible */
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0); /* Termina en la posición original */
+        opacity: 1;
+    }
+}
+
+/* Aplicar la animación */
+.h2 {
+    animation: slide-up 8s ease-out; /* Ajusta la duración y el tipo de animación */
+}
+
+.ideal {
+    position: relative;
+}
+
+.desing {
+    max-width: 100%; /* Asegúrate de que la imagen se ajuste al contenedor */
+    height: auto; /* Mantén la proporción de la imagen */
+    animation: slide-up 8s ease-out;
+}

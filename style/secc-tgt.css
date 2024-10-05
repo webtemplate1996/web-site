@@ -1,0 +1,55 @@
+#secc-tgt{
+    display: display;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.card{
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    /* margin-top: 20%; */
+    margin: 10% 0 10% 0;
+    border-radius: 20px;
+    box-shadow: 10px  10px 1px rgb(4, 18, 99);
+}
+.card:hover{
+    border:1px solid  #00419d;
+    box-shadow: 10px  10px 10px rgb(0, 0, 0);
+    position:relative;
+}
+/* .des-tgt:hover{
+    color: white;
+    font-family:sans-serif;
+} */
+#card{
+    gap: 35px;
+}
+#des-tgt{
+    font-size: 35px;
+}
+.img-tgt{
+    width: 70%;
+    height: auto;
+    filter: drop-shadow(0px 0px 20px rgb(0, 76, 255));
+    /* border: 1px solid white; */
+    margin-left: 70px;
+
+    /* align-items: center;
+    justify-content: center; */
+}
+#img-tgt{
+    width: 80%;
+    /* border: 1px solid white; */
+    margin-left: 50px;
+}
+.des-tgt{
+    color: white;
+    /* border: 1px solid white; */
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    font-family:sans-serif;
+}

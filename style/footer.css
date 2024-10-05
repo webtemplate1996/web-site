@@ -1,0 +1,117 @@
+footer{
+    width:100% ;
+    height: auto;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+.contact{
+    width: 25%;
+    height: auto;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact2{
+    width: 25%;
+    height: auto;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.junto{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+.footer-logo{
+    width: 40%;
+    height: auto;
+    /* border: 1px solid white; */
+    /* margin: 50px 180px ; */
+    filter: drop-shadow(5px 5px  50px rgb(0, 134, 216));
+    animation: rotate 40s linear infinite;
+}
+
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.footer-name{
+    color: #00FFFF;
+    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.footer-p{
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.quicklink{
+    width: 100%;
+    text-align: center;
+    color: rgb(111, 91, 149);
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.seconn-a{
+    width: 100%;
+    height: auto;
+    color:#00FFFF;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 25px 0px ;
+}
+.copy{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    color:white;
+    margin: 25px 0px 20px 500px; /* margin: arriba, derercha, habajo, izqquierda*/
+    /* border: 1px solid red; */
+    font-size: 25px;
+}
+.contact1{
+    width: 30%;
+    height: auto;
+    /* border: 1px solid white; */
+}
+.con{
+    color: rgb(6, 45, 175);
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top:60px ;
+}
+
+.redes{
+    width: 100%;
+    height:auto ;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.red{
+    width: 100px;
+}
+.red:hover{
+    filter: drop-shadow(3px 3px  1px rgb(52, 99, 255));
+}
