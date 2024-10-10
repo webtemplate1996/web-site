@@ -15,7 +15,7 @@ footer{
     flex-direction: column;
     gap: 10px;
 }
-.contact2{
+.contac2{
     width: 25%;
     height: auto;
     /* border: 1px solid white; */
@@ -83,14 +83,15 @@ footer{
     width: 50%;
     height: auto;
     text-align: center;
-    color:white;
+    color:aqua;
     margin: 25px 0px 20px 500px; /* margin: arriba, derercha, habajo, izqquierda*/
     /* border: 1px solid red; */
-    font-size: 25px;
+    font-size: 20px;
 }
 .contact1{
     width: 30%;
     height: auto;
+
     /* border: 1px solid white; */
 }
 .con{
@@ -98,7 +99,7 @@ footer{
     font-size: 25px;
     font-family: sans-serif;
     text-align: center;
-    margin-top:60px ;
+    margin-top:30px ;
 }
 
 .redes{

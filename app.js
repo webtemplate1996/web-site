@@ -26,4 +26,18 @@ setInterval(changeWord, 5000);
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
+
+const icon_ham = document.querySelector('.icon-ham')
+const closed = document.querySelector('.close')
+const nav = document.querySelector('.nav-bar')
  
+
+icon_ham.addEventListener('click', () =>{
+    nav.classList.add('visible')
+    // document.body.classList.add('no-scroll')
+})
+
+closed.addEventListener('click', () => {
+    nav.classList.remove('visible')
+    // document.body.classList.remove('no-scroll')
+})

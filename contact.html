@@ -10,19 +10,25 @@
     <link rel="stylesheet" href="style/secc-tgt.css">
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="style/media@.css">
     <title>Orbit Web Innovation</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        
 
         <div class="barra">
 
             <div class="logo-nombre">
-                <a href="index.html"><img class="logo" src="./logos-a-color/net-creativa-new2.svg" alt="website"></a>
+                <img class="logo" src="./logos-a-color/net-creativa-new2.svg" alt="website">
                 <a class="a-name" href="index.html"><h1 class="nombre">Orbit Web Innovation</h1></a>
             </div>
+            <button class="icon-ham">&#9776;</button>
+            
 
             <nav class="nav-bar">
+
+                <button class="close">X</button>
                 <a class="a" id="a" href="index.html">Home</a>
                 <a class="a" href="projects.html">Projects</a>
                 <a class="a" href="about.html">About Us</a>
@@ -30,19 +36,47 @@
             </nav>
 
             <a class="btn" href="contact.html">Contact Us</a>
+            
         </div>
+        
+
     </header>
 
-    <main class="seccion">
-        <div class="container">
-            <form class="formulario" action="">
-                <input type="text" class="form" placeholder="Email">
-                <input type="text" class="form2" placeholder="Message">
-                <button class="send">Send</button>
-            </form>
+    <div class="container" id="container">
+
+        <div class="resume">
+            <p class="p-xplain">
+                Focused on small businesses, we offer professional, attractive web design that is fully optimized for a fast and responsive site on all devices. We specialize in providing personalized solutions to help you stand out online and attract more customers. Contact us and transform your digital presence with a custom-made website!
+            </p>
         </div>
-        <img src="iconos-para-web/contact23.svg" alt="">
+
+    </div>
+
+    <main class="seccion1">
+
+        <div class="container2">
+
+            <form class="formulario" action="https://formsubmit.co/netcreativa@outlook.com" method="post" >
+                <input type="text" class="form" name="name" placeholder="name" required>
+                <input type="text" class="form" name="email" placeholder="Email" required>
+                <input type="text" class="form2" name="message" placeholder="Message" required>
+                <button class="send" >Submit</button>
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/contact.html">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+
+        </div>
+
+        <img class="img-contact" src="iconos-para-web/contact23.svg" alt="web design">
+
     </main>
+
+    
+9
+
+
+    
 
     <footer class="seccion">
         <div class="contact">
@@ -67,11 +101,13 @@
         </div>
 
         <div class="contact1">
-            <h3 class="con">Contact</h3>
-
-            <h3 class="con">(346) 757-5500</h3>
-
-            <h3 class="con">Email: orbitwebinnovation@outlook.com</h3>
+            <div class="info22">
+                <h3 class="con">Contact</h3>
+                <h3 class="con">Jose Garcia</h3>
+                <h3 class="con">(346) 757-5500</h3>
+                <h3 class="con">Email</h3>
+                <h3 class="con" id="con">orbitwebinnovation@outlook.com</h3>
+            </div>
             <div class="redes">
                 <a href="#"><img class="red" src="/iconos-para-web/facebook.svg" alt=""></a>
                 <a href="#"><img class="red" src="/iconos-para-web/instagram.svg" alt=""></a>
